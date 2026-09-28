@@ -1,0 +1,2642 @@
+{
+ "fp_loop_standard_nofade": {
+  "folder": "nofade",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_loop_crisp_nofade": {
+  "folder": "nofade",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_loop_light_nofade": {
+  "folder": "nofade",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_loop_heavy_nofade": {
+  "folder": "nofade",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_whorl_standard_nofade": {
+  "folder": "nofade",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_whorl_crisp_nofade": {
+  "folder": "nofade",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_whorl_light_nofade": {
+  "folder": "nofade",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_whorl_heavy_nofade": {
+  "folder": "nofade",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_arch_standard_nofade": {
+  "folder": "nofade",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_arch_crisp_nofade": {
+  "folder": "nofade",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_arch_light_nofade": {
+  "folder": "nofade",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_arch_heavy_nofade": {
+  "folder": "nofade",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    1.6,
+    2.2
+   ]
+  }
+ },
+ "fp_loop_standard_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_crisp_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_light_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_heavy_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_standard_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_crisp_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_light_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_heavy_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_standard_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_crisp_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_light_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_heavy_fadeout-right": {
+  "folder": "fadeout-right",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_standard_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_crisp_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_light_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_heavy_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_standard_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_crisp_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_light_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_heavy_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_standard_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_crisp_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_light_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_heavy_fadeout-left": {
+  "folder": "fadeout-left",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    -1.0,
+    0.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_standard_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_crisp_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_light_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_heavy_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_standard_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_crisp_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_light_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_heavy_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_standard_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_crisp_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_light_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_heavy_fadeout-up": {
+  "folder": "fadeout-up",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    -1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_standard_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_crisp_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_light_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_heavy_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_standard_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_crisp_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_light_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_heavy_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_standard_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_crisp_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_light_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_heavy_fadeout-down": {
+  "folder": "fadeout-down",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    0.0,
+    1.0
+   ],
+   "fade": [
+    0.25,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_standard_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "loop",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_crisp_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "loop",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_light_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "loop",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_loop_heavy_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "loop",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "loop",
+   "core": [
+    210,
+    405
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_standard_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "whorl",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_crisp_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "whorl",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_light_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "whorl",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_whorl_heavy_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "whorl",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.5,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "whorl",
+   "core": [
+    210,
+    210
+   ],
+   "rot": -10,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_standard_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "arch",
+  "weight": "standard",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 1.5,
+   "grease": 1.3,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_crisp_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "arch",
+  "weight": "crisp",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": -0.28,
+   "heavy": 0.0,
+   "grease": 0.0,
+   "dry": 0.9,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_light_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "arch",
+  "weight": "light",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.1,
+   "heavy": 0.3,
+   "grease": 0.35,
+   "dry": 1.2,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ },
+ "fp_arch_heavy_fadeout-radial": {
+  "folder": "fadeout-radial",
+  "pattern": "arch",
+  "weight": "heavy",
+  "canvas": [
+   420,
+   420
+  ],
+  "params": {
+   "lam": 2.9,
+   "ax": 1.0,
+   "ay": 1.12,
+   "spiral": 0.0,
+   "grease_cell": 22,
+   "speck": 0.18,
+   "seed": 1,
+   "kind": "arch",
+   "core": [
+    210,
+    210
+   ],
+   "rot": 0,
+   "thick": 0.3,
+   "heavy": 2.3,
+   "grease": 1.9,
+   "dry": 0.5,
+   "fdir": [
+    1.0,
+    0.0
+   ],
+   "fcenter": [
+    210,
+    210
+   ],
+   "fade": [
+    0.2,
+    0.95
+   ]
+  }
+ }
+}

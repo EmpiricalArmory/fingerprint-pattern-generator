@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Empirical Armory fingerprint-pattern generator: adjust and export fingerprint fills as vector SVG.">
+<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Ridge Press</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="panel" aria-label="Settings">
+    <div class="brand">
+      <h1>Ridge Press</h1>
+      <p>Empirical Armory fingerprint fills. Adjust, then download as vector SVG.</p>
+    </div>
+
+    <section class="sec" aria-labelledby="h-shape">
+      <div class="sechead"><h2 id="h-shape">Shape</h2><button class="rst" type="button" data-reset="shape">↺ reset shape</button></div>
+      <div class="chips" id="shapeChips"></div>
+      <div id="shapeExtra" class="two"></div>
+      <div id="customBox" hidden class="field">
+        <label for="svgFile">Your silhouette (SVG file)</label>
+        <input id="svgFile" type="file" accept=".svg,image/svg+xml">
+        <label for="svgPaste">…or paste SVG code or a path’s d attribute</label>
+        <textarea id="svgPaste" class="txt" placeholder="&lt;svg …&gt; or M10 10 L200 10 …"></textarea>
+        <button class="btn" id="svgApply" type="button">Use this shape</button>
+        <p class="hint" id="customMsg"></p>
+      </div>
+      <div class="two">
+        <div class="field"><label for="cw">Canvas width <button class="rst" type="button" data-one="w" aria-label="Reset canvas width">↺</button></label><input class="txt" id="cw" type="number" min="60" max="1600" step="10"></div>
+        <div class="field"><label for="ch">Canvas height <button class="rst" type="button" data-one="h" aria-label="Reset canvas height">↺</button></label><input class="txt" id="ch" type="number" min="60" max="1600" step="10"></div>
+      </div>
+      <p class="hint">Units are points in Illustrator. Canvas size is part of the recipe.</p>
+    </section>
+
+    <section class="sec" aria-labelledby="h-pattern">
+      <div class="sechead"><h2 id="h-pattern">Pattern</h2><button class="rst" type="button" data-reset="pattern">↺ reset pattern</button></div>
+      <div class="chips" id="kindChips"></div>
+      <div id="patternRows"></div>
+      <p class="hint">Drag on the preview to move the pattern centre; shift-drag sets a radial fade centre. ⌘/Ctrl + scroll zooms.</p>
+    </section>
+
+    <section class="sec" aria-labelledby="h-ink">
+      <div class="sechead"><h2 id="h-ink">Ink weight</h2><button class="rst" type="button" data-reset="ink">↺ reset ink weight</button></div>
+      <div class="chips" id="weightChips"></div>
+      <div id="inkRows"></div>
+      <div class="row"><label for="seed">seed</label><input id="seedRange" type="range" min="1" max="999" step="1" aria-label="seed slider"><input id="seed" type="number" min="0" step="1"><button class="rst" type="button" id="seedReset" title="Reset seed" aria-label="Reset seed">↺</button></div>
+      <button class="btn" type="button" id="dice">New random layout</button>
+    </section>
+
+    <section class="sec" aria-labelledby="h-fade">
+      <div class="sechead"><h2 id="h-fade">Fade</h2><button class="rst" type="button" data-reset="fade">↺ reset fade</button></div>
+      <div class="chips" id="fadeChips"></div>
+      <div id="fadeRows"></div>
+    </section>
+
+    <section class="sec" aria-labelledby="h-colour">
+      <div class="sechead"><h2 id="h-colour">Colour</h2><button class="rst" type="button" data-reset="colour">↺ reset colour</button></div>
+      <div class="chips" id="modeChips"></div>
+      <div class="colrow"><span>ridges</span><input type="color" id="inkCol" aria-label="Ridge colour"><label class="none" for="inkNone"><input type="checkbox" id="inkNone"> none</label><span></span><button class="rst" type="button" data-col="ink" aria-label="Reset ridge colour">↺</button></div>
+      <div class="colrow"><span>ground</span><input type="color" id="groundCol" aria-label="Ground colour"><label class="none" for="groundNone"><input type="checkbox" id="groundNone"> none</label><span></span><button class="rst" type="button" data-col="ground" aria-label="Reset ground colour">↺</button></div>
+      <div class="colrow"><span>paper</span><input type="color" id="paperCol" aria-label="Paper colour"><label class="none" for="paperNone"><input type="checkbox" id="paperNone"> none</label><span class="hint">preview only</span><button class="rst" type="button" data-col="paper" aria-label="Reset paper colour">↺</button></div>
+      <p class="hint">“none” leaves that part transparent. Ridges set to none are cut out of the ground.</p>
+    </section>
+
+    <section class="sec" aria-labelledby="h-recipe">
+      <h2 id="h-recipe">Recipe</h2>
+      <p class="hint">The same recipe always gives the same print. Copy it to keep a result, paste one to restore it.</p>
+      <textarea class="txt" id="recipe" spellcheck="false" aria-label="Recipe"></textarea>
+      <div class="chips">
+        <button class="btn" type="button" id="copyRecipe">Copy recipe</button>
+        <button class="btn" type="button" id="applyRecipe">Apply pasted recipe</button>
+      </div>
+      <div class="two" style="grid-template-columns:1fr auto">
+        <input class="txt" id="presetName" placeholder="Preset name" aria-label="Preset name">
+        <button class="btn" type="button" id="savePreset">Save preset</button>
+      </div>
+      <div class="presets" id="presetList"></div>
+      <p class="hint">Saved presets live in this browser only.</p>
+    </section>
+  </aside>
+
+  <main class="main">
+    <div class="bar top">
+      <div class="group">
+        <button class="btn primary" type="button" id="dl">Download SVG</button>
+        <button class="btn" type="button" id="copySvg">Copy SVG code</button>
+        <label class="swatch" for="quality">detail
+          <select id="quality"><option value="2">standard</option><option value="3" selected>fine</option><option value="4">extra fine</option></select>
+        </label>
+      </div>
+      <span class="toast" id="toast" role="status" aria-live="polite"></span>
+    </div>
+    <textarea class="txt" id="svgOut" hidden readonly aria-label="SVG code" style="min-height:90px"></textarea>
+    <div class="stage" id="stage">
+      <div class="wrap" id="wrap">
+        <canvas id="view" aria-label="Fingerprint preview"></canvas>
+        <div class="dot" id="coreDot" hidden></div>
+        <div class="dot fade" id="fadeDot" hidden></div>
+      </div>
+    </div>
+    <div class="bar foot">
+      <span class="status" id="status">…</span>
+      <div class="zoom" role="group" aria-label="Zoom">
+        <button class="btn" type="button" id="zOut" aria-label="Zoom out">−</button>
+        <output id="zVal">fit</output>
+        <button class="btn" type="button" id="zIn" aria-label="Zoom in">+</button>
+        <button class="btn" type="button" id="zFit">Fit</button>
+        <button class="btn" type="button" id="z100">100%</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/rng.js"></script>
+<script src="js/shapes.js"></script>
+<script src="js/renderer.js"></script>
+<script src="js/tracer.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/export.js"></script>
+
+</body>
+</html>
